@@ -2,13 +2,16 @@
 
     require_once('puricure.php');
 
-    class Cureblack extends Puricure {
+    class Cureblack extends Puricure 
+    {
 
-        public function attack(){
+        public function attack()
+        {
             $this->blackThunder();
         }
 
-        private function blackThunder(){
+        private function blackThunder()
+        {
             echo 'ブラックサンダー!';
             echo '<br>';
         }

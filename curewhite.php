@@ -2,13 +2,16 @@
 
     require_once('puricure.php');
 
-    class Curewhite extends Puricure {
+    class Curewhite extends Puricure 
+    {
 
-        public function attack(){
+        public function attack()
+        {
             $this->whiteThunder();
         }
 
-        private function whiteThunder(){
+        private function whiteThunder()
+        {
             echo 'ホワイトサンダー!';
             echo '<br>';
         }
